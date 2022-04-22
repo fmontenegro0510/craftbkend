@@ -1,0 +1,14 @@
+composer create-project --prefer-dist laravel/laravel craftbkend "8.*"
+composer require brackets/craftable "7.*"
+composer require --dev brackets/admin-generator
+# here, make sure .env variables are correctly configured
+php artisan craftable:install
+npm install && npm run dev
+php artisan serve
+
+usuario:administrator@brackets.sk
+pass:Zhz7EEO1L3
+
+
+usuario2:franciscomontenegro22@gmail.com
+pass2: uKw9yX5J9nEk@F
